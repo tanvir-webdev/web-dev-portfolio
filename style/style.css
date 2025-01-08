@@ -44,6 +44,10 @@
     background-color: #FFF8F3;
 }
 
+.text-center{
+    text-align: center;
+}
+
 /* Header Style */
 
 .header{
@@ -140,4 +144,27 @@ main{
     font-size: 20px;
     font-weight: 700;
     color:#474747;
+}
+
+/* What I do Section Style */
+
+.what-i-do{
+    margin-top: 130px;
+}
+
+.what-i-do-container{
+    display: flex;
+    gap: 30px;
+}
+
+.contant-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+}
+
+.what-i-do-contant{
+    padding: 33px;
+    box-shadow: 0 6px 50px rgba(0, 0, 0, 0.06) ;
+    border-radius: 5px;
 }
